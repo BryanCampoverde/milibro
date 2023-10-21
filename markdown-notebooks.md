@@ -12,42 +12,35 @@ kernelspec:
   name: python3
 ---
 
-# Notebooks with MyST Markdown
+# Introducción a la Informática
 
-Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See [the Notebooks with MyST Markdown documentation](https://jupyterbook.org/file-types/myst-notebooks.html) for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.
+## ¿Qué es la Informática?
 
-## An example cell
+La informática es la ciencia que se encarga del estudio de las computadoras y sistemas computacionales. Esta disciplina abarca una amplia gama de temas, desde el hardware y el software de las computadoras hasta la programación y la gestión de datos.
 
-With MyST Markdown, you can define code cells with a directive like so:
+## Hardware y Software
 
-```{code-cell}
-print(2 + 2)
-```
+En informática, el **hardware** se refiere a los componentes físicos de una computadora, como la unidad central de procesamiento (CPU), la memoria RAM, el disco duro y otros dispositivos. El **software** son los programas y aplicaciones que se ejecutan en la computadora, incluidos el sistema operativo y las aplicaciones de software.
 
-When your book is built, the contents of any `{code-cell}` blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.
+## Sistemas Operativos Comunes
 
-```{seealso}
-Jupyter Book uses [Jupytext](https://jupytext.readthedocs.io/en/latest/) to convert text-based files to notebooks, and can support [many other text-based notebook files](https://jupyterbook.org/file-types/jupytext.html).
-```
+Existen varios sistemas operativos populares utilizados en computadoras personales y servidores. Algunos ejemplos incluyen:
 
-## Create a notebook with MyST Markdown
+- Windows
+- macOS
+- Linux
+- Android
+- iOS
 
-MyST Markdown notebooks are defined by two things:
+## Introducción a la Programación
 
-1. YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-   See the YAML at the top of this page for example.
-2. The presence of `{code-cell}` directives, which will be executed with your book.
+La programación es un aspecto fundamental de la informática. Permite a los programadores crear software y aplicaciones. Algunos lenguajes de programación comunes son:
 
-That's all that is needed to get started!
+- Python
+- Java
+- C++
+- JavaScript
 
-## Quickly add YAML metadata for MyST Notebooks
+La programación es una habilidad valiosa en la informática, ya que permite crear soluciones personalizadas y automatizar tareas.
 
-If you have a markdown file and you'd like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:
-
-```
-jupyter-book myst init path/to/markdownfile.md
-```
+En este capítulo, exploraremos estos conceptos básicos de informática y su importancia en el mundo actual.
