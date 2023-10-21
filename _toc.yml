@@ -5,10 +5,6 @@ format: jb-book
 root: intro
 chapters:
 - file: markdown
-- title: Suma de numeros en python
 - file: introduccion_programacion
-- title: Introduccion programacion
 - file: markdown-notebooks
-- title: Introducción a la Informática
 - file: importancia_python
-- title: Importancia de usar python 
