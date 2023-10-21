@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Notebooks with MyST Markdown &#8212; mi primer libro</title>
+    <title>Introducción a la Informática &#8212; mi primer libro</title>
   
   
   
@@ -65,6 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'markdown-notebooks';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="La Importancia de Python en la Informática" href="importancia_python.html" />
     <link rel="prev" title="Introducción a la programación en Python" href="introduccion_programacion.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -176,7 +177,8 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introducción a la Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="importancia_python.html">La Importancia de Python en la Informática</a></li>
 </ul>
 
     </div>
@@ -360,7 +362,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Notebooks with MyST Markdown</h1>
+    <h1>Introducción a la Informática</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -370,9 +372,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-example-cell">An example cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">Create a notebook with MyST Markdown</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">Quickly add YAML metadata for MyST Notebooks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#que-es-la-informatica">¿Qué es la Informática?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hardware-y-software">Hardware y Software</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sistemas-operativos-comunes">Sistemas Operativos Comunes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduccion-a-la-programacion">Introducción a la Programación</a></li>
 </ul>
             </nav>
         </div>
@@ -384,50 +387,38 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="notebooks-with-myst-markdown">
-<h1>Notebooks with MyST Markdown<a class="headerlink" href="#notebooks-with-myst-markdown" title="Permalink to this heading">#</a></h1>
-<p>Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See <a class="reference external" href="https://jupyterbook.org/file-types/myst-notebooks.html">the Notebooks with MyST Markdown documentation</a> for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.</p>
-<section id="an-example-cell">
-<h2>An example cell<a class="headerlink" href="#an-example-cell" title="Permalink to this heading">#</a></h2>
-<p>With MyST Markdown, you can define code cells with a directive like so:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4
-</pre></div>
-</div>
-</div>
-</div>
-<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.</p>
-<div class="admonition seealso">
-<p class="admonition-title">See also</p>
-<p>Jupyter Book uses <a class="reference external" href="https://jupytext.readthedocs.io/en/latest/">Jupytext</a> to convert text-based files to notebooks, and can support <a class="reference external" href="https://jupyterbook.org/file-types/jupytext.html">many other text-based notebook files</a>.</p>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="introduccion-a-la-informatica">
+<h1>Introducción a la Informática<a class="headerlink" href="#introduccion-a-la-informatica" title="Permalink to this heading">#</a></h1>
+<section id="que-es-la-informatica">
+<h2>¿Qué es la Informática?<a class="headerlink" href="#que-es-la-informatica" title="Permalink to this heading">#</a></h2>
+<p>La informática es la ciencia que se encarga del estudio de las computadoras y sistemas computacionales. Esta disciplina abarca una amplia gama de temas, desde el hardware y el software de las computadoras hasta la programación y la gestión de datos.</p>
 </section>
-<section id="create-a-notebook-with-myst-markdown">
-<h2>Create a notebook with MyST Markdown<a class="headerlink" href="#create-a-notebook-with-myst-markdown" title="Permalink to this heading">#</a></h2>
-<p>MyST Markdown notebooks are defined by two things:</p>
-<ol class="arabic simple">
-<li><p>YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-See the YAML at the top of this page for example.</p></li>
-<li><p>The presence of <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> directives, which will be executed with your book.</p></li>
-</ol>
-<p>That’s all that is needed to get started!</p>
+<section id="hardware-y-software">
+<h2>Hardware y Software<a class="headerlink" href="#hardware-y-software" title="Permalink to this heading">#</a></h2>
+<p>En informática, el <strong>hardware</strong> se refiere a los componentes físicos de una computadora, como la unidad central de procesamiento (CPU), la memoria RAM, el disco duro y otros dispositivos. El <strong>software</strong> son los programas y aplicaciones que se ejecutan en la computadora, incluidos el sistema operativo y las aplicaciones de software.</p>
 </section>
-<section id="quickly-add-yaml-metadata-for-myst-notebooks">
-<h2>Quickly add YAML metadata for MyST Notebooks<a class="headerlink" href="#quickly-add-yaml-metadata-for-myst-notebooks" title="Permalink to this heading">#</a></h2>
-<p>If you have a markdown file and you’d like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">markdownfile</span><span class="o">.</span><span class="n">md</span>
-</pre></div>
-</div>
+<section id="sistemas-operativos-comunes">
+<h2>Sistemas Operativos Comunes<a class="headerlink" href="#sistemas-operativos-comunes" title="Permalink to this heading">#</a></h2>
+<p>Existen varios sistemas operativos populares utilizados en computadoras personales y servidores. Algunos ejemplos incluyen:</p>
+<ul class="simple">
+<li><p>Windows</p></li>
+<li><p>macOS</p></li>
+<li><p>Linux</p></li>
+<li><p>Android</p></li>
+<li><p>iOS</p></li>
+</ul>
+</section>
+<section id="introduccion-a-la-programacion">
+<h2>Introducción a la Programación<a class="headerlink" href="#introduccion-a-la-programacion" title="Permalink to this heading">#</a></h2>
+<p>La programación es un aspecto fundamental de la informática. Permite a los programadores crear software y aplicaciones. Algunos lenguajes de programación comunes son:</p>
+<ul class="simple">
+<li><p>Python</p></li>
+<li><p>Java</p></li>
+<li><p>C++</p></li>
+<li><p>JavaScript</p></li>
+</ul>
+<p>La programación es una habilidad valiosa en la informática, ya que permite crear soluciones personalizadas y automatizar tareas.</p>
+<p>En este capítulo, exploraremos estos conceptos básicos de informática y su importancia en el mundo actual.</p>
 </section>
 </section>
 
@@ -470,6 +461,15 @@ See the YAML at the top of this page for example.</p></li>
         <p class="prev-next-title">Introducción a la programación en Python</p>
       </div>
     </a>
+    <a class="right-next"
+       href="importancia_python.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">La Importancia de Python en la Informática</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -485,9 +485,10 @@ See the YAML at the top of this page for example.</p></li>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-example-cell">An example cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">Create a notebook with MyST Markdown</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">Quickly add YAML metadata for MyST Notebooks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#que-es-la-informatica">¿Qué es la Informática?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hardware-y-software">Hardware y Software</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sistemas-operativos-comunes">Sistemas Operativos Comunes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduccion-a-la-programacion">Introducción a la Programación</a></li>
 </ul>
   </nav></div>
 
