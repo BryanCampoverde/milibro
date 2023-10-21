@@ -1,3 +1,5 @@
+# Ejemplo Python
+
 # Este es un ejemplo de cómo calcular la suma de dos números en Python.
 
 # Definir dos números

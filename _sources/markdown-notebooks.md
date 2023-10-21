@@ -14,6 +14,7 @@ kernelspec:
 
 # Introducción a la Informática
 
+
 ## ¿Qué es la Informática?
 
 La informática es la ciencia que se encarga del estudio de las computadoras y sistemas computacionales. Esta disciplina abarca una amplia gama de temas, desde el hardware y el software de las computadoras hasta la programación y la gestión de datos.
